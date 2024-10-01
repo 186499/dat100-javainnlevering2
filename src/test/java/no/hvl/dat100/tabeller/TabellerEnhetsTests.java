@@ -39,6 +39,8 @@ class TabellerEnhetsTests {
 		assertEquals("[1,4,6]", Tabeller.tilStreng(tabell1));
 		assertEquals("[1]", Tabeller.tilStreng(tabell2));
 		assertEquals("[]", Tabeller.tilStreng(tabell3));
+		
+		
 	}
 
 	@Test
@@ -85,7 +87,7 @@ class TabellerEnhetsTests {
 		assertFalse(tabell2 == reversert2);
 		assertArrayEquals(tabell2, reversert2);
 		
-		assertFalse(tabell1 == reversert1);
+		assertFalse(tabell3 == reversert3);
 		assertArrayEquals(tabell3, reversert3);
 	}
 
